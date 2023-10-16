@@ -1,0 +1,48 @@
+.font-gilsans {
+  font-family: "Gabarito", sans-serif;
+}
+.bg-darkblue{
+    background-color: #113946;
+}
+.bg-darksand{
+    background-color: #EAD7BB;
+}
+.bg-sand{
+    background-color: #FFF2D8;
+}
+.bg-brown{
+    background-color: #BCA37F;
+}
+.hr-sep {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border: dotted #BCA37F ;
+    width: 10%;
+}
+.text-white{
+    color: white;
+    text-decoration: none;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #E9B384, #F4F2DE, #A1CCD1);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

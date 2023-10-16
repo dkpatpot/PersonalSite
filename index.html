@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pattie Site</title>
+  </head>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+  <body>
+    <section id="nav-bar" class="font-gilsans">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-darkblue"
+        aria-label="Fifth navbar example"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Pattie's Site</a>
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample05"
+            aria-controls="navbarsExample05"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="navbar-collapse collapse" id="navbarsExample05">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="public/aboutme.html">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="public/contactme.html">Contact me</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Achievement</a
+                >
+                <ul class="dropdown-menu mx-0 border-0 shadow bg-sand">
+                  <li>
+                    <a
+                      class="dropdown-item d-flex gap-2 align-items-center"
+                      href="#"
+                    >
+                      <img src="assets/icons/backpack.svg" alt="" />
+                      Education
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item d-flex gap-2 align-items-center"
+                      href="#"
+                    >
+                      <img src="assets/icons/award.svg" alt="" />
+                      Award
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item d-flex gap-2 align-items-center"
+                      href="#"
+                    >
+                      <img src="assets/icons/patch-check.svg" alt="" />
+                      Certificate
+                    </a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a
+                      class="dropdown-item d-flex gap-2 align-items-center"
+                      href="#"
+                    >
+                      <img src="assets/icons/archive.svg" alt="" />
+                      Project
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item d-flex gap-2 align-items-center"
+                      href="#"
+                    >
+                      <img src="assets/icons/briefcase.svg" alt="" />
+                      Work Experience
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <section id="hero" class="gradient-background">
+      <div class="container">
+        <div class="px-4 py-5 text-center font-gilsans">
+          <img
+            class="d-block mx-auto mb-4"
+            src="/assets/images/pattie.jpg"
+            alt=""
+            width="170"
+            height="170"
+            style="border-radius: 50%"
+          />
+          <h1 class="display-5 fw-bold text-body-emphasis">I'm Thanaphat</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">
+              Hello everyone, My name is Thanaphat Wannalobon, and I am a
+              fourth-year Bachelor's degree student at Kasetsart university,
+              Faculty of Computer Science.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skill">
+      <div class="container px-4 py-5" id="icon-grid">
+        <h2 class="pb-2 border-bottom text-center">My skills</h2>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 py-5">
+          <div class="col d-flex align-items-start">
+            <img
+              src="assets/icons/braces-asterisk.svg"
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              height="30"
+              alt=""
+            />
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Back-end coding
+              </h3>
+              <p>
+                Python ,C ,C++ ,PHP ,Java ,JavaScript ,SQL ,Springboot
+                ,Microservices ,Laravel.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <img
+              src="assets/icons/code-square.svg"
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              height="30"
+              alt=""
+            />
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Front-end coding
+              </h3>
+              <p>HTML ,CSS ,Bootstrap ,Angular ,TailwindCSS ,Vue.js.</p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <img
+              src="assets/icons/person-heart.svg"
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              height="30"
+              alt=""
+            />
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Team player</h3>
+              <p>
+                I'm good when I working with other people and I've a great
+                leadership as well.
+              </p>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <img
+              src="assets/icons/chat-square-dots.svg"
+              class="bi text-body-secondary flex-shrink-0 me-3"
+              height="30"
+              alt=""
+            />
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">
+                Communication
+              </h3>
+              <p>
+                I likly to approach many people and I has a great communication.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="hr-sep" />
+    <section class="hobbies">
+      <div class="container px-4 py-5">
+        <h2 class="pb-2 border-bottom text-center">My hobbies</h2>
+
+        <div
+          class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5"
+        >
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class="fw-bold text-body-emphasis">
+              This is how I spend times on my free time.
+            </h2>
+            <p class="text-body-secondary">
+              If you want to know about me more please click on "About me"
+              button below❤️.
+            </p>
+            <a href="public/aboutme.html" class="btn btn-outline-dark btn-lg"
+              >About me</a
+            >
+          </div>
+
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  <img src="assets/icons/controller.svg" height="20" alt="" />
+                  Video game
+                </h4>
+                <p class="text-body-secondary">
+                  I'd love to spend a time on a video game with my friend.
+                </p>
+              </div>
+
+              <div class="col d-flex flex-column gap-2">
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  <img
+                    src="assets/icons/music-note-beamed.svg"
+                    height="20"
+                    alt=""
+                  />
+                  Music
+                </h4>
+                <p class="text-body-secondary">
+                  When I tried or boring I'd like to listening to a music.
+                </p>
+              </div>
+
+              <div class="col d-flex flex-column gap-2">
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  <img src="assets/icons/dribbble.svg" height="20" alt="" />
+                  Sport
+                </h4>
+                <p class="text-body-secondary">
+                  When I've a plenty of time in a free day I like to play a
+                  football, I dreamed to become a footballer some days.
+                </p>
+              </div>
+
+              <div class="col d-flex flex-column gap-2">
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  <img src="assets/icons/cup-straw.svg" height="20" alt="" />
+                  Hangout with friend
+                </h4>
+                <p class="text-body-secondary">
+                  On a vacation I like to spend a time by hangout with my
+                  friend.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer" class="font-gilsans bg-darkblue">
+      <div class="container">
+        <footer class="py-3 mt-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item">
+              <a
+                href="https://github.com/dkpatpot"
+                class="nav-link px-2 text-light"
+                >Github</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.linkedin.com/in/thanaphat-wannalobon-5a201b16b/"
+                class="nav-link px-2 text-light"
+                >Linkedin</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.facebook.com/Pattie.2K"
+                class="nav-link px-2 text-light"
+                >Facebook</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.instagram.com/pjiinp_/"
+                class="nav-link px-2 text-light"
+                >Instagram</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://twitter.com/ppjjinp"
+                class="nav-link px-2 text-light"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+          <p class="text-center text-light">
+            © 2023 Thanaphat. All Rights Reserved.
+          </p>
+        </footer>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
