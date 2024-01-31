@@ -8,7 +8,7 @@
     background-color: #EAD7BB;
 }
 .bg-sand{
-    background-color: #FFF2D8;
+    background-color: #E3E1D9;
 }
 .bg-brown{
     background-color: #BCA37F;
@@ -29,9 +29,9 @@
     text-decoration: none;
 }
 .gradient-background {
-    background: linear-gradient(300deg, #E9B384, #F4F2DE, #A1CCD1);
-    background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
+    background: url(../assets/images/Background.jpg);
+    background-repeat: no-repeat;
+    animation: gradient-animation 4s ease infinite;
   }
   
   @keyframes gradient-animation {
@@ -45,4 +45,12 @@
       background-position: 0% 50%;
     }
   }
-  
+.background-transparent{
+  opacity: 50%;
+}
+.border-black{
+ text-shadow: 2px 2px 0 black;
+}
+.border-black-header{
+  text-shadow: 4px 4px 0 black;
+ }
